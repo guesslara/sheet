@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Prueba del Grid</title>
+    <script type="text/javascript" src="clases/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#a1").focus();
+        });
+        
+        function focusElemento(idElemento){
+            alert(idElemento);
+        }
+    </script>
+</head>
+<style type="text/css">
+    body.html{height: 100%;margin: 0;}
+</style>
+<body>
+    <div style="border: 1px solid #000;width: 99.5%;height: 435px;">
+        <div style="border: 1px solid #666;width: 99.3%;height: 98%;margin: 3px;overflow: auto;">
+            <div style="width: auto;height: 22px;border: 1px solid #FF0000;">
+                <div style="float: left;width: 30px;height: 20px;border: 1px solid #CCC;background: #f0f0f0;"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #f0f0f0;text-align: center;font-size: 14px;">A</div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #f0f0f0;text-align: center;font-size: 14px;">B</div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #f0f0f0;text-align: center;font-size: 14px;">C</div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #f0f0f0;text-align: center;font-size: 14px;">D</div>
+            </div>
+            <div style="width: auto;height: auto;border: 1px solid #FF0000;">
+                <div style="float: left;width: 24px;height: 14px;border: 1px solid #CCC;background: #f0f0f0;text-align: center;font-size: 12px;padding: 3px;">1</div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="a1" onclick="focusElemento(this.id)"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="b1"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="c1"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="d1"></div>
+                <div style="clear: both;"></div>
+                
+                <div style="float: left;width: 24px;height: 14px;border: 1px solid #CCC;background: #f0f0f0;text-align: center;font-size: 12px;padding: 3px;">2</div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="a2"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="b2"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="c2"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="d2"></div>
+                <div style="clear: both;"></div>
+                
+                <div style="float: left;width: 24px;height: 14px;border: 1px solid #CCC;background: #f0f0f0;text-align: center;font-size: 12px;padding: 3px;">3</div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="a3"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="b3"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="c3"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="d4"></div>
+                <div style="clear: both;"></div>
+                
+                <div style="float: left;width: 24px;height: 14px;border: 1px solid #CCC;background: #f0f0f0;text-align: center;font-size: 12px;padding: 3px;">4</div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="a4"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="b4"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="c4"></div>
+                <div style="float: left;width: 110px;height: 20px;border: 1px solid #CCC;background: #fff;" id="d4"></div>
+                <div style="clear: both;"></div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
